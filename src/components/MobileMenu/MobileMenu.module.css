@@ -1,0 +1,23 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #b68e65;
+  transform: translateX(-100%);
+  transition: transform 500ms linear;
+  padding: 10px 20px;
+}
+
+.menu.active {
+  transform: translateX(0);
+}
+
+.icon {
+  fill: #464646;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
