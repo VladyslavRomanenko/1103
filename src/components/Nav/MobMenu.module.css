@@ -1,0 +1,90 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav {
+  width: 100%;
+  height: 5em;
+  background-color: #373636;
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burgerMenu {
+  height: 100%;
+  width: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.burgerBar {
+  width: 3em;
+  height: 0.5em;
+  background-color: pink;
+  border-radius: 0.5em;
+}
+
+.menu {
+  width: 100%;
+  height: 100vh;
+  background-color: #373636;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transition: all 0.5s linear;
+  padding: 30px 40px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 15px;
+}
+
+.link {
+  color: pink;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.icon {
+  fill: pink;
+}
+
+/* ---------------sliding------------- */
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: inherit;
+}
+
+/* ------------- animations ---------------- */
+/* clicked */
+.burgerBar.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.75em, 1.25em);
+  transition: ease-out 0.5s;
+}
+.burgerBar.clicked:nth-child(2) {
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+.burgerBar.clicked:nth-child(3) {
+  transform: rotate(135deg) translate(-0.5em, 1em);
+  transition: ease-out 0.5s;
+
+  /* unclicked */
+}
+.burgerBar.unclicked {
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}

@@ -1,7 +1,27 @@
 @import "modern-normalize";
 
-body {
+/* body {
   background-color: #464646;
+} */
+
+/* @font-face {
+  font-family: "caveat";
+  src: url(./assets/fonts/Caveat/Caveat-Medium.ttf);
+  src: url(./assets/fonts/Caveat/Caveat-Bold.ttf);
+  src: url(./assets/fonts/Caveat/Caveat-Regular.ttf);
+  src: url(./assets/fonts/Caveat/Caveat-SemiBold.ttf);
+} */
+
+@font-face {
+  font-family: "shantell";
+  src: url(./assets/fonts/Shantell/ShantellSans-Medium.ttf);
+  /* src: url(./assets/fonts/Caveat/Caveat-Bold.ttf);
+  src: url(./assets/fonts/Caveat/Caveat-Regular.ttf);
+  src: url(./assets/fonts/Caveat/Caveat-SemiBold.ttf); */
+}
+
+body {
+  font-family: "shantell";
 }
 
 ul,
@@ -42,6 +62,6 @@ img {
   justify-content: space-between;
 }
 
-.icon {
+/* .icon {
   fill: #464646;
-}
+} */
