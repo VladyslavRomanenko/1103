@@ -22,8 +22,7 @@ const MobMenu = () => {
   };
 
   return (
-    // <div className={css.container}>
-    <>
+    <div className={css.container}>
       <nav className={css.nav}>
         <a href="./">
           <svg className={css.icon} width={80}>
@@ -55,8 +54,7 @@ const MobMenu = () => {
           </li>
         </ul>
       </div>
-    </>
-    // </div>
+    </div>
   );
 };
 

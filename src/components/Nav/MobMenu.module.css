@@ -1,6 +1,8 @@
 .container {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
+  position: relative;
+  z-index: 4;
 }
 
 .nav {
@@ -11,6 +13,7 @@
   padding: 1em;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #646464;
 }
 
 .burgerMenu {
@@ -33,11 +36,12 @@
 .menu {
   width: 100%;
   height: 100vh;
-  background-color: #373636;
+  overflow: hidden;
+  background-color: #373636ac;
   position: absolute;
   top: 0;
+  /* right: 0; */
   z-index: -1;
-  transition: all 0.5s linear;
   padding: 30px 40px;
 }
 
@@ -50,7 +54,7 @@
 
 .link {
   color: pink;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 700;
 }
 

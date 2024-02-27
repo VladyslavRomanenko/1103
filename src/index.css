@@ -4,24 +4,17 @@
   background-color: #464646;
 } */
 
-/* @font-face {
-  font-family: "caveat";
-  src: url(./assets/fonts/Caveat/Caveat-Medium.ttf);
-  src: url(./assets/fonts/Caveat/Caveat-Bold.ttf);
-  src: url(./assets/fonts/Caveat/Caveat-Regular.ttf);
-  src: url(./assets/fonts/Caveat/Caveat-SemiBold.ttf);
-} */
-
 @font-face {
-  font-family: "shantell";
-  src: url(./assets/fonts/Shantell/ShantellSans-Medium.ttf);
-  /* src: url(./assets/fonts/Caveat/Caveat-Bold.ttf);
-  src: url(./assets/fonts/Caveat/Caveat-Regular.ttf);
-  src: url(./assets/fonts/Caveat/Caveat-SemiBold.ttf); */
+  font-family: "Montserrat";
+  src: url(./assets/fonts/Montserrat-Bold.ttf);
+  src: url(./assets/fonts/Montserrat-ExtraBold.ttf);
+  src: url(./assets/fonts/Montserrat-Medium.ttf);
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+  src: url(./assets/fonts/Montserrat-SemiBold.ttf);
 }
 
 body {
-  font-family: "shantell";
+  font-family: "Montserrat";
 }
 
 ul,
