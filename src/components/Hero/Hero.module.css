@@ -1,0 +1,36 @@
+.video {
+  width: 100%; /* або будь-яка інша потрібна ширина */
+  height: 100%; /* або будь-яка інша потрібна висота */
+  position: relative;
+}
+
+.hero {
+  text-align: center;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: pink;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #373636;
+  font-size: 20px;
+  animation: pulse 2s infinite;
+  z-index: 5;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
